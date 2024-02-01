@@ -1,0 +1,87 @@
+body{
+    background-color:#000000;
+}
+#form{
+    display: flex;
+    flex-direction: column; /* Mudança para coluna para empilhar verticalmente */
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color:#2c2c2c;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 4%;
+    border-radius: 30px;
+    color: white;
+}
+#submit-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#b1-form, #c1-form, #d1-form{
+    display: none;
+}
+#button-alternativas{
+    display: flex;
+    flex-direction: column; /* Mudança para coluna para empilhar verticalmente */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;   
+}
+#button-alternativas button{
+    border-radius: 10px;
+    width: 80%;
+    padding: 3%;
+    background-color:rgb(10, 10, 10);
+    color: white;
+}
+#op1, #op2, #op3{
+    margin-left: 70px;
+}
+
+#o1:hover, #o2:hover, #o3:hover{
+    background-color:blue;
+    color: white;
+    border-radius: 15px;
+    
+}
+#prox{
+    border-radius: 10px;
+    margin: auto;
+    padding: 3%;
+    margin-top: 30px;
+    width: 30%;
+    color: white;
+    background-color:#aeaeae;
+}
+#prox:hover{
+    cursor: pointer;
+    background-color: #373737;
+}
+#form, #prox{
+    justify-content: center;
+    align-items: center;
+}
+#cmc{
+    padding: 3%;
+    width: 40%;
+    border-radius: 10px;
+    background-color:#aeaeae;
+    color: white;
+}
+ #cmc:hover {
+    cursor: pointer;
+    background-color: #373737;
+ }

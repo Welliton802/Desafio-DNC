@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio DNC</title>
+    <link rel="stylesheet" href="stylo.css">
+</head>
+
+<body>
+    <div class="form-conteiner" id="form">
+        <div id="header">
+            <div id="button-alternativas">
+                <h2 id="quest">Aqui pergunta</h2><br>
+               
+                <button id="op1" value="op1" name="op1" class="botao" value="op1" onclick="selecionarBotao('op1')">inres 1</button><br>
+                <button id="op2" value="op2" name="op2" class="botao" value="op2" onclick="selecionarBotao('op2')">res 2</button><br>
+                <button id="op3" value="op3" name="op3" class="botao" value="op3"  onclick="selecionarBotao('op3')">res 3</button>
+            </div>
+            <button id="prox" >próximo</button> 
+        </div>
+        <p id="outro"></p>
+        <button id="cmc" onclick="cmc()">Começar</button>
+        <div id="final">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
